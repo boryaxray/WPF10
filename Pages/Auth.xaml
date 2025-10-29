@@ -1,0 +1,64 @@
+﻿<Page x:Class="WPF8_PRACT.Pages.Auth"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF8_PRACT.Pages" 
+      xmlns:validators="clr-namespace:WPF8_PRACT.ValidationRules"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke"
+      Title="Вход в систему">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Вход в систему" Style="{StaticResource TitleText}"/>
+
+        <StackPanel Grid.Row="1">
+            <Label Content="Логин:" Style="{StaticResource FormLabel}"/>
+            <TextBox x:Name="loginTextBox">
+                <TextBox.Text>
+                    <Binding Path="LoginText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:LoginValidationRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=loginTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label Content="Пароль:" Style="{StaticResource FormLabel}"/>
+            <TextBox x:Name="passwordTextBox">
+                <TextBox.Text>
+                    <Binding Path="PasswordText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:RequiredValidationRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=passwordTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Style="{StaticResource HorizontalButtonPanel}">
+            <Button Content="Войти" Click="AuthButton_Click" Style="{StaticResource AddButtonStyle}"/>
+            <Button Content="Регистрация" Click="RegisterButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

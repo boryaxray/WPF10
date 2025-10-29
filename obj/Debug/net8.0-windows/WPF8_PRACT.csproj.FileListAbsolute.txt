@@ -1,0 +1,147 @@
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\AddPagePacient.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\Auth.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\RegisterPage.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\StartPriem.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.cache
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.lref
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\AddPagePacient.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\Auth.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\EditPacientPage.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\RegisterPage.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\StartPriem.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.cache
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.lref
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\Auth.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\EditPacientPage.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\RegisterPage.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\StartPriem.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.dll
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\refint\WPF8_PRACT.dll
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.pdb
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.exe
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.deps.json
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.runtimeconfig.json
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.dll
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.pdb
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\AddPagePacient.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.g.resources
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfoInputs.cache
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfo.cs
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.csproj.CoreCompileInputs.cache
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.genruntimeconfig.cache
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT\obj\Debug\net8.0-windows\ref\WPF8_PRACT.dll
+C:\Users\st310-08\Desktop\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.exe
+C:\Users\st310-08\Desktop\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.deps.json
+C:\Users\st310-08\Desktop\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.runtimeconfig.json
+C:\Users\st310-08\Desktop\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.dll
+C:\Users\st310-08\Desktop\WPF8_PRACT\bin\Debug\net8.0-windows\WPF8_PRACT.pdb
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\AddPagePacient.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\Auth.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\EditPacientPage.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\RegisterPage.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\StartPriem.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.cache
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.lref
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\AddPagePacient.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\Auth.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\EditPacientPage.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\RegisterPage.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\Pages\StartPriem.baml
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.g.resources
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfoInputs.cache
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfo.cs
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.csproj.CoreCompileInputs.cache
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.dll
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\refint\WPF8_PRACT.dll
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.pdb
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\WPF8_PRACT.genruntimeconfig.cache
+C:\Users\st310-08\Desktop\WPF8_PRACT\obj\Debug\net8.0-windows\ref\WPF8_PRACT.dll
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.exe
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.deps.json
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.runtimeconfig.json
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.dll
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.pdb
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\AddPagePacient.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\Auth.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\EditPacientPage.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\RegisterPage.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\StartPriem.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.cache
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.lref
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\AddPagePacient.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\Auth.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\EditPacientPage.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\RegisterPage.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\StartPriem.baml
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.g.resources
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfoInputs.cache
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfo.cs
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.csproj.CoreCompileInputs.cache
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.dll
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\refint\WPF8_PRACT.dll
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.pdb
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.genruntimeconfig.cache
+C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT — style\obj\Debug\net8.0-windows\ref\WPF8_PRACT.dll
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Styles\Colors\DarkTheme.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Styles\Colors\DefaultColors.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Styles\UI\ButtonStyles.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Styles\UI\CommonStyles.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Styles\UI\FormStyles.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Styles\UI\TextStyles.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\AddPagePacient.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\Auth.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\EditPacientPage.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\RegisterPage.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\StartPriem.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\App.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.cache
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT_MarkupCompile.lref
+D:\ТРПО\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.exe
+D:\ТРПО\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.dll.config
+D:\ТРПО\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.deps.json
+D:\ТРПО\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.runtimeconfig.json
+D:\ТРПО\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.dll
+D:\ТРПО\WPF8_PRACT — style\bin\Debug\net8.0-windows\WPF8_PRACT.pdb
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\App.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\MainWindow.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\AddPagePacient.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\Auth.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\EditPacientPage.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\MainPage.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\RegisterPage.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\Pages\StartPriem.baml
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.g.resources
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.GeneratedMSBuildEditorConfig.editorconfig
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfoInputs.cache
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.AssemblyInfo.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.csproj.CoreCompileInputs.cache
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.dll
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\refint\WPF8_PRACT.dll
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.pdb
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\WPF8_PRACT.genruntimeconfig.cache
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\ref\WPF8_PRACT.dll

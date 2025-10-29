@@ -1,0 +1,20 @@
+﻿WPF8_PRACT
+
+
+winexe
+C#
+.cs
+D:\ТРПО\WPF8_PRACT — style\obj\Debug\net8.0-windows\
+WPF8_PRACT
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\ТРПО\WPF8_PRACT — style\App.xaml
+131625001109
+
+24-1221815738
+198-192518753
+MainWindow.xaml;Pages\AddPagePacient.xaml;Pages\Auth.xaml;Pages\EditPacientPage.xaml;Pages\MainPage.xaml;Pages\RegisterPage.xaml;Pages\StartPriem.xaml;Styles\Colors\DarkTheme.xaml;Styles\Colors\DefaultColors.xaml;Styles\UI\ButtonStyles.xaml;Styles\UI\CommonStyles.xaml;Styles\UI\FormStyles.xaml;Styles\UI\TextStyles.xaml;
+
+False
+

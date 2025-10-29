@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Темная тема -->
+    <SolidColorBrush x:Key="WindowBackground" Color="#212529"/>
+    <SolidColorBrush x:Key="PanelBackground" Color="#343A40"/>
+    <SolidColorBrush x:Key="TextColor" Color="White"/>
+    <SolidColorBrush x:Key="BorderColor" Color="#495057"/>
+
+    <!-- Меню -->
+    <SolidColorBrush x:Key="MenuBackground" Color="#1A1A1A"/>
+    <SolidColorBrush x:Key="MenuForeground" Color="White"/>
+
+    <!-- Кнопки -->
+    <SolidColorBrush x:Key="ButtonBackground" Color="#495057"/>
+    <SolidColorBrush x:Key="ButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="ButtonBorder" Color="#495057"/>
+
+    <!-- Кнопка добавления -->
+    <SolidColorBrush x:Key="AddButtonBackground" Color="#157347"/>
+    <SolidColorBrush x:Key="AddButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="AddButtonBorder" Color="#157347"/>
+
+    <!-- Кнопка удаления -->
+    <SolidColorBrush x:Key="DeleteButtonBackground" Color="#BB2D3B"/>
+    <SolidColorBrush x:Key="DeleteButtonForeground" Color="White"/>
+    <SolidColorBrush x:Key="DeleteButtonBorder" Color="#BB2D3B"/>
+
+</ResourceDictionary>

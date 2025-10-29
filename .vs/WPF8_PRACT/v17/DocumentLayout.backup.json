@@ -1,0 +1,684 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\styles\\ui\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:styles\\ui\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\user\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:user\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\addpagepacient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\addpagepacient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\startpriem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\startpriem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\editpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\editpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\auth.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\auth.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\editpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\editpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\specializationvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\specializationvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\requiredvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\requiredvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\recommendationsvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\recommendationsvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\phonevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\phonevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\namevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\namevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\loginvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\loginvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\diagnosisvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\diagnosisvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\datevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\datevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\validationrules\\passwordvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:validationrules\\passwordvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\addpagepacient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\addpagepacient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\auth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\auth.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\user\\appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:user\\appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\startpriem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\startpriem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\styles\\ui\\textstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:styles\\ui\\textstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\styles\\ui\\formstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:styles\\ui\\formstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\user\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:user\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\wpf8_pract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:wpf8_pract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\styles\\ui\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:styles\\ui\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alek7\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\resources\\delete.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:resources\\delete.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\wpf8_pract.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:wpf8_pract.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|d:\\\u0442\u0440\u043F\u043E\\wpf8_pract \u2014 style\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD56028-298D-472C-96C0-CAFA586A45C9}|WPF8_PRACT.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditPacientPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\EditPacientPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\EditPacientPage.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\EditPacientPage.xaml.cs",
+              "RelativeToolTip": "Pages\\EditPacientPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:49:19.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Auth.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\Auth.xaml",
+              "RelativeDocumentMoniker": "Pages\\Auth.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\Auth.xaml",
+              "RelativeToolTip": "Pages\\Auth.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T07:15:32.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditPacientPage.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\EditPacientPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\EditPacientPage.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\EditPacientPage.xaml",
+              "RelativeToolTip": "Pages\\EditPacientPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T14:48:08.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T07:51:33.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\User\\Pacient.cs",
+              "RelativeDocumentMoniker": "User\\Pacient.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\User\\Pacient.cs",
+              "RelativeToolTip": "User\\Pacient.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:20:25.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecommendationsValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\RecommendationsValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\RecommendationsValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\RecommendationsValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\RecommendationsValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:15:56.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NameValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\NameValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\NameValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\NameValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\NameValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:13:49.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\RegisterPage.xaml",
+              "RelativeToolTip": "Pages\\RegisterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T07:27:46.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartPriem.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\StartPriem.xaml",
+              "RelativeDocumentMoniker": "Pages\\StartPriem.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\StartPriem.xaml",
+              "RelativeToolTip": "Pages\\StartPriem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T08:36:50.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddPagePacient.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\AddPagePacient.xaml",
+              "RelativeDocumentMoniker": "Pages\\AddPagePacient.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\AddPagePacient.xaml",
+              "RelativeToolTip": "Pages\\AddPagePacient.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T08:13:24.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PhoneValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\PhoneValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\PhoneValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\PhoneValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\PhoneValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:40:18.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonStyles.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\ButtonStyles.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\ButtonStyles.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\ButtonStyles.xaml",
+              "RelativeToolTip": "Styles\\UI\\ButtonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:45:43.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\Colors\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "Styles\\Colors\\DarkTheme.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\Colors\\DarkTheme.xaml",
+              "RelativeToolTip": "Styles\\Colors\\DarkTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T15:31:26.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultColors.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\Colors\\DefaultColors.xaml",
+              "RelativeDocumentMoniker": "Styles\\Colors\\DefaultColors.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\Colors\\DefaultColors.xaml",
+              "RelativeToolTip": "Styles\\Colors\\DefaultColors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T15:31:05.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SpecializationValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\SpecializationValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\SpecializationValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\SpecializationValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\SpecializationValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:15:23.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequiredValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\RequiredValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\RequiredValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\RequiredValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\RequiredValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:40:00.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\LoginValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\LoginValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\LoginValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\LoginValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:38:23.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DiagnosisValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\DiagnosisValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\DiagnosisValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\DiagnosisValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\DiagnosisValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:15:38.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DateValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\DateValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\DateValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\DateValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\DateValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:40:41.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PasswordValidationRule.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\PasswordValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\PasswordValidationRule.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ValidationRules\\PasswordValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\PasswordValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:14:54.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddPagePacient.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\AddPagePacient.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddPagePacient.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\AddPagePacient.xaml.cs",
+              "RelativeToolTip": "Pages\\AddPagePacient.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:15:09.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Pages\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T07:35:34.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TextStyles.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\TextStyles.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\TextStyles.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\TextStyles.xaml",
+              "RelativeToolTip": "Styles\\UI\\TextStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:44:55.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Auth.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\Auth.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Auth.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\Auth.xaml.cs",
+              "RelativeToolTip": "Pages\\Auth.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T07:26:29.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StartPriem.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\StartPriem.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\StartPriem.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\StartPriem.xaml.cs",
+              "RelativeToolTip": "Pages\\StartPriem.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:44:48.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WPF8_PRACT.csproj",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\WPF8_PRACT.csproj",
+              "RelativeDocumentMoniker": "WPF8_PRACT.csproj",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\WPF8_PRACT.csproj",
+              "RelativeToolTip": "WPF8_PRACT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T15:48:19.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormStyles.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\FormStyles.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\FormStyles.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\FormStyles.xaml",
+              "RelativeToolTip": "Styles\\UI\\FormStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:45:17.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppointmentStory.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\User\\AppointmentStory.cs",
+              "RelativeDocumentMoniker": "User\\AppointmentStory.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\User\\AppointmentStory.cs",
+              "RelativeToolTip": "User\\AppointmentStory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:19:08.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\User\\Doctor.cs",
+              "RelativeDocumentMoniker": "User\\Doctor.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\User\\Doctor.cs",
+              "RelativeToolTip": "User\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:20:23.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommonStyles.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\CommonStyles.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\CommonStyles.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Styles\\UI\\CommonStyles.xaml",
+              "RelativeToolTip": "Styles\\UI\\CommonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:43:59.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T15:32:15.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ThemeHelper.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ThemeHelper.cs",
+              "RelativeDocumentMoniker": "ThemeHelper.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\ThemeHelper.cs",
+              "RelativeToolTip": "ThemeHelper.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwGMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:33:05.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T07:14:16.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "delete.png",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Resources\\delete.png",
+              "RelativeDocumentMoniker": "Resources\\delete.png",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Resources\\delete.png",
+              "RelativeToolTip": "Resources\\delete.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-27T16:14:34.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:34:15.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:04:07.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-27T17:13:51.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:41:03.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\alek7\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\alek7\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAOIBAAAAAAAAAAAuwP4BAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T16:33:48.451Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WPF8_PRACT",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\WPF8_PRACT.csproj",
+              "RelativeDocumentMoniker": "WPF8_PRACT.csproj",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\WPF8_PRACT.csproj",
+              "RelativeToolTip": "WPF8_PRACT.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T15:33:27.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u0422\u0420\u041F\u041E\\WPF8_PRACT \u2014 style\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T07:14:15.486Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

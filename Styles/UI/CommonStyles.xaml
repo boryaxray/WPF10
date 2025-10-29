@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Стили для контейнеров -->
+    <Style x:Key="CenterStackPanel" TargetType="StackPanel">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="HorizontalButtonPanel" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Horizontal"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+    </Style>
+
+    <!-- Стили для границ -->
+    <Style x:Key="FormBorder" TargetType="Border">
+        <Setter Property="Background" Value="{DynamicResource PanelBackground}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource BorderColor}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+    </Style>
+
+    <!-- Стили для меню -->
+    <Style TargetType="Menu">
+        <Setter Property="Background" Value="{DynamicResource MenuBackground}"/>
+        <Setter Property="Foreground" Value="{DynamicResource MenuForeground}"/>
+        <Setter Property="Height" Value="30"/>
+    </Style>
+
+    <Style TargetType="MenuItem">
+        <Setter Property="Background" Value="{DynamicResource MenuBackground}"/>
+        <Setter Property="Foreground" Value="{DynamicResource MenuForeground}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+
+</ResourceDictionary>

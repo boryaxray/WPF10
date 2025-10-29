@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF8_PRACT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF8_PRACT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900">
+    <DockPanel>
+        <!-- Меню -->
+        <Menu DockPanel.Dock="Top" Background="{DynamicResource ButtonBackground}">
+            <MenuItem Header="Настройки">
+                <MenuItem Header="Сменить тему" Click="ChangeThemeMenuItem_Click"/>
+            </MenuItem>
+        </Menu>
+        <!-- Основной контент -->
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>
