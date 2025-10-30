@@ -1,0 +1,20 @@
+{
+  "PacientId": "81421",
+  "Name": "qq",
+  "LastName": "qq",
+  "MiddleName": "qq",
+  "Birthday": "2000-02-09T00:00:00",
+  "PhoneNumber": 44141241414,
+  "AppointmentStories": [
+    {
+      "Date": "2025-10-30T15:08:54.8670739+05:00",
+      "DateString": "30.10.2025",
+      "DoctorId": 0,
+      "Diagnosis": "",
+      "Recommendations": ""
+    }
+  ],
+  "Age": 25,
+  "AgeStatus": "Совершеннолетний",
+  "DaysSinceLastAppointment": "Последний приём: сегодня"
+}

@@ -77,7 +77,23 @@
 
         <StackPanel Grid.Row="0" Grid.Column="1">
             <Label Content="Дата рождения:" Style="{StaticResource FormLabel}"/>
-            <DatePicker x:Name="birthdayPicker" SelectedDate="{Binding CurrentPacient.Birthday, Mode=TwoWay}"/>
+            <DatePicker x:Name="birthdayPicker">
+                <DatePicker.SelectedDate>
+                    <Binding Path="CurrentPacient.Birthday" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validators:DateValidationRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </DatePicker.SelectedDate>
+            </DatePicker>
+            <ItemsControl ItemsSource="{Binding ElementName=datePicker, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
 
             <Label Content="Номер телефона:" Style="{StaticResource FormLabel}"/>
             <TextBox x:Name="phoneTextBox">
@@ -99,8 +115,9 @@
             </ItemsControl>
         </StackPanel>
 
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource CenterStackPanel}">
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource HorizontalButtonPanel}">
             <Button Content="Добавить" Click="AddPacientButton_Click" Style="{StaticResource AddButtonStyle}"/>
+            <Button Content="Назад" Click="BackButton_Click"/>
         </StackPanel>
     </Grid>
 </Page>

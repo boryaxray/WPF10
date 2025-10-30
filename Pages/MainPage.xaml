@@ -42,7 +42,7 @@
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="Телефон: " Style="{StaticResource BoldText}"/>
-                                <TextBlock Text="{Binding PhoneNumber, StringFormat={}{0:\(###\) ###-##-##}}"/>
+                                <TextBlock Text="{Binding PhoneNumber, StringFormat='{}{0:#(###) ### ## ##}'}"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="Дата рождения: " Style="{StaticResource BoldText}"/>

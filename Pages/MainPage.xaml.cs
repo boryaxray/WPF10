@@ -81,7 +81,7 @@ namespace WPF8_PRACT.Pages
                     // Удаляем из коллекции
                     Pacients.Remove(SelectedPacient);
 
-                    MessageBox.Show("Пациент успешно удален");
+                  
                 }
             }
             else

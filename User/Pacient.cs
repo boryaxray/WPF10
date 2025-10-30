@@ -88,8 +88,8 @@ namespace WPF8_PRACT
         }
 
 
-        private string _phoneNumber = "";
-        public string PhoneNumber
+        private long _phoneNumber;
+        public long PhoneNumber
         {
             get => _phoneNumber;
             set
@@ -151,7 +151,7 @@ namespace WPF8_PRACT
                 var lastDate = lastAppointment.Date;
                 var days = (DateTime.Now - lastDate).Days;
 
-                return days == 0 ? "Сегодня" : $"{days} дней назад";
+                return days == 0 ? "Последний приём: сегодня" : $"Последний приём: {days} дней назад";
             }
         }
 

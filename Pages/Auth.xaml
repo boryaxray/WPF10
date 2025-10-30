@@ -29,13 +29,13 @@
                     </Binding>
                 </TextBox.Text>
             </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=loginTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+                <ItemsControl ItemsSource="{Binding ElementName=loginTextBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
 
             <Label Content="Пароль:" Style="{StaticResource FormLabel}"/>
             <TextBox x:Name="passwordTextBox">

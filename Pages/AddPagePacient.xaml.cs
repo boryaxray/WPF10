@@ -14,6 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using WPF8_PRACT.User;
+
 namespace WPF8_PRACT.Pages
 {
     /// <summary>
@@ -23,6 +25,7 @@ namespace WPF8_PRACT.Pages
     {
         public ObservableCollection<Pacient> PacientList { get; set; }
         public Pacient CurrentPacient { get; set; } = new Pacient();
+        public AppointmentStory NewAppointment { get; set; } = new AppointmentStory();
 
         public AddPagePacient(ObservableCollection<Pacient> pacientList)
         {
@@ -35,16 +38,19 @@ namespace WPF8_PRACT.Pages
         {
             if (Validation.GetHasError(nameTextBox) ||
                 Validation.GetHasError(lastNameTextBox) ||
-                Validation.GetHasError(phoneTextBox) ||
-                Validation.GetHasError(birthdayPicker))
+                Validation.GetHasError(phoneTextBox) || Validation.GetHasError(birthdayPicker))
             {
-                // Ошибки уже показаны через ItemsControl
                 return;
             }
-
+            CurrentPacient.AppointmentStories.Add(NewAppointment);
             CurrentPacient.PacientId = Pacient.GeneratePacientId();
             PacientList.Add(CurrentPacient);
             CurrentPacient.SaveToFile();
+            NavigationService.GoBack();
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
             NavigationService.GoBack();
         }
     }

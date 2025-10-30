@@ -44,7 +44,10 @@
                     <TextBlock Text="Статус:" Style="{StaticResource BoldText}"/>
                     <TextBlock Text="{Binding CurrentPacient.AgeStatus}"/>
                 </StackPanel>
-
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Телефон: " Style="{StaticResource BoldText}"/>
+                    <TextBlock Text="{Binding CurrentPacient.PhoneNumber, StringFormat='{}{0:#(###) ### ## ##}'}"/>
+                </StackPanel>
                 <Separator/>
 
                 <StackPanel Orientation="Horizontal">
@@ -114,9 +117,10 @@
             </StackPanel>
         </Border>
 
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource CenterStackPanel}">
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource HorizontalButtonPanel}">
             <TextBlock Text="{Binding CurrentPacient.DaysSinceLastAppointment}" Style="{StaticResource InfoText}"/>
             <Button Content="Добавить прием" Click="AddPriems_Click" Style="{StaticResource AddButtonStyle}"/>
+            <Button Content="Назад" Click="BackButton_Click"/>
         </StackPanel>
     </Grid>
 </Page>

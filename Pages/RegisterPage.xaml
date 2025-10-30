@@ -25,7 +25,7 @@
                 <TextBox.Text>
                     <Binding Path="NewDoctor.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                         <Binding.ValidationRules>
-                            <validators:NameValidationRule/>
+                            <validators:NameValidationRule/>    
                         </Binding.ValidationRules>
                     </Binding>
                 </TextBox.Text>
