@@ -36,6 +36,11 @@ namespace WPF8_PRACT.Pages
 
         private void AddPacientButton_Click(object sender, RoutedEventArgs e)
         {
+            nameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            lastNameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            middleNameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            phoneTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            birthdayPicker.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
             if (Validation.GetHasError(nameTextBox) ||
                 Validation.GetHasError(lastNameTextBox) ||
                 Validation.GetHasError(phoneTextBox) || Validation.GetHasError(birthdayPicker))

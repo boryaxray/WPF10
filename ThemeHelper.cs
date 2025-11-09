@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -18,7 +14,7 @@ namespace WPF8_PRACT
 
         public static string CurrentTheme
         {
-            get => Properties.Settings.Default.ThemePath ?? _themePaths[0];
+            get => Properties.Settings.Default.ThemePath ?? "Light";
             set
             {
                 Properties.Settings.Default.ThemePath = value;
@@ -33,35 +29,45 @@ namespace WPF8_PRACT
                 var app = Application.Current;
                 if (app == null) return;
 
-                // Очищаем текущие ресурсы цветов
+                // Удаляем только наши цветовые словари
                 var dictionaries = app.Resources.MergedDictionaries;
-                for (int i = dictionaries.Count - 1; i >= 0; i--)
+                var colorDictionariesToRemove = new System.Collections.Generic.List<ResourceDictionary>();
+
+                foreach (var dict in dictionaries)
                 {
-                    var dict = dictionaries[i];
-                    if (dict.Source?.ToString().Contains("Styles/Colors") == true)
+                    if (dict.Source != null)
                     {
-                        dictionaries.RemoveAt(i);
+                        var sourceString = dict.Source.ToString();
+                        if (sourceString.Contains("Styles/Colors/DefaultColors.xaml") ||
+                            sourceString.Contains("Styles/Colors/DarkTheme.xaml"))
+                        {
+                            colorDictionariesToRemove.Add(dict);
+                        }
                     }
+                }
+
+                foreach (var dictToRemove in colorDictionariesToRemove)
+                {
+                    dictionaries.Remove(dictToRemove);
                 }
 
                 // Добавляем новую тему
                 var newTheme = new ResourceDictionary();
                 if (themeName == "Dark")
                 {
-                    newTheme.Source = new Uri("/Styles/Colors/DarkTheme.xaml", UriKind.Relative);
+                    newTheme.Source = new Uri("pack://application:,,,/Styles/Colors/DarkTheme.xaml", UriKind.Absolute);
                 }
                 else
                 {
-                    newTheme.Source = new Uri("/Styles/Colors/DefaultColors.xaml", UriKind.Relative);
+                    newTheme.Source = new Uri("pack://application:,,,/Styles/Colors/DefaultColors.xaml", UriKind.Absolute);
                 }
 
                 dictionaries.Add(newTheme);
 
                 // Сохраняем настройку
-                Properties.Settings.Default.ThemePath = themeName;
-                Properties.Settings.Default.Save();
+                CurrentTheme = themeName;
 
-                // Принудительно обновляем все окна и страницы
+                // Обновляем все окна
                 UpdateAllWindows();
             }
             catch (Exception ex)
@@ -77,57 +83,54 @@ namespace WPF8_PRACT
 
             foreach (Window window in app.Windows)
             {
-                // Обновляем фон окна
-                if (app.Resources["WindowBackground"] is System.Windows.Media.Brush backgroundBrush)
-                {
-                    window.Background = backgroundBrush;
-                }
-
-                // Рекурсивно обновляем все элементы управления
-                UpdateControlBackground(window);
+                UpdateWindowResources(window);
             }
         }
 
-        private static void UpdateControlBackground(DependencyObject parent)
+        private static void UpdateWindowResources(Window window)
         {
+            if (window == null) return;
+
+            // Обновляем фон окна
+            var backgroundBrush = Application.Current.Resources["WindowBackground"] as Brush;
+            if (backgroundBrush != null)
+            {
+                window.Background = backgroundBrush;
+            }
+
+            // Рекурсивно обновляем все элементы
+            UpdateVisualTree(window);
+        }
+
+        private static void UpdateVisualTree(DependencyObject parent)
+        {
+            if (parent == null) return;
+
             for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
             {
                 var child = VisualTreeHelper.GetChild(parent, i);
 
-                if (child is Control control)
+                if (child is FrameworkElement element)
                 {
-                    // Обновляем фон для основных контейнеров
-                    if (control is Panel || control is Page)
-                    {
-                        var backgroundBrush = Application.Current.Resources["WindowBackground"] as System.Windows.Media.Brush;
-                        if (backgroundBrush != null)
-                        {
-                            control.Background = backgroundBrush;
-                        }
-                    }
+                    // Принудительно обновляем стили
+                    element.InvalidateVisual();
+                    element.InvalidateArrange();
+                    element.InvalidateMeasure();
                 }
 
-                // Рекурсивно обходим детей
-                UpdateControlBackground(child);
+                UpdateVisualTree(child);
             }
         }
 
         public static void ApplySavedTheme()
         {
-            var savedTheme = Properties.Settings.Default.ThemePath;
-            if (!string.IsNullOrEmpty(savedTheme))
-            {
-                ApplyTheme(savedTheme);
-            }
-            else
-            {
-                ApplyTheme("Light");
-            }
+            var savedTheme = CurrentTheme;
+            ApplyTheme(savedTheme);
         }
 
         public static void ToggleTheme()
         {
-            var currentTheme = Properties.Settings.Default.ThemePath;
+            var currentTheme = CurrentTheme;
             if (currentTheme == "Dark")
             {
                 ApplyTheme("Light");

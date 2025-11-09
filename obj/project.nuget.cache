@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uQSF25IygqA=",
+  "dgSpecHash": "eDd3w7CawAg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\st310-08\\Documents\\zherebce_trpo\\WPF8_PRACT10\\WPF8_PRACT.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\alek7\\OneDrive\\Рабочий стол\\WPF8_PRACT10\\WPF8_PRACT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alek7\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
+    "C:\\Users\\alek7\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
+    "C:\\Users\\alek7\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
   "logs": []
 }

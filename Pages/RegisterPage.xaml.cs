@@ -28,12 +28,22 @@ namespace WPF8_PRACT.Pages
             DataContext = this;
         }
 
-        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            NavigationService.GoBack();
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            nameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            lastNameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            middleNameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            passwordTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+            specializationTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
             if (Validation.GetHasError(nameTextBox) ||
-                Validation.GetHasError(lastNameTextBox) ||
-                Validation.GetHasError(passwordTextBox) ||
-                Validation.GetHasError(specializationTextBox))
+               Validation.GetHasError(lastNameTextBox) ||
+               Validation.GetHasError(passwordTextBox) ||
+               Validation.GetHasError(specializationTextBox))
             {
                 return;
             }

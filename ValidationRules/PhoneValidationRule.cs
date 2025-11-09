@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Controls;
 
 namespace WPF8_PRACT.ValidationRules
@@ -12,16 +9,23 @@ namespace WPF8_PRACT.ValidationRules
     {
         public override ValidationResult Validate(object value, CultureInfo cultureInfo)
         {
-            var input = (value ?? "").ToString().Trim();
+            string input = value as string;
 
-            if (string.IsNullOrEmpty(input))
+            if (string.IsNullOrWhiteSpace(input))
                 return new ValidationResult(false, "Номер телефона обязателен");
 
-            var cleanPhone = new string(input.Where(char.IsDigit).ToArray());
+            string cleanPhone = new string(input.Where(char.IsDigit).ToArray());
+
+            if (cleanPhone.Length != input.Trim().Length)
+                return new ValidationResult(false, "Номер телефона должен содержать только цифры");
 
             if (cleanPhone.Length < 10 || cleanPhone.Length > 11)
                 return new ValidationResult(false, "Номер телефона должен содержать 10-11 цифр");
 
+            if (!long.TryParse(cleanPhone, out long phoneNumber))
+                return new ValidationResult(false, "Некорректный формат номера телефона");
+
+           
             return ValidationResult.ValidResult;
         }
     }

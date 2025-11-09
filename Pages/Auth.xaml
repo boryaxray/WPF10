@@ -6,29 +6,30 @@
       xmlns:local="clr-namespace:WPF8_PRACT.Pages" 
       xmlns:validators="clr-namespace:WPF8_PRACT.ValidationRules"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke"
+      d:DesignHeight="450" d:DesignWidth="800" Background="{DynamicResource WindowBackground}"
       Title="Вход в систему">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Text="Вход в систему" Style="{StaticResource TitleText}"/>
 
-        <StackPanel Grid.Row="1">
-            <Label Content="Логин:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="loginTextBox">
-                <TextBox.Text>
-                    <Binding Path="LoginText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:LoginValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
+        <Border Grid.Row="1" Style="{StaticResource FormBorder}" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Width="300">
+                <Label Content="Логин:" Style="{StaticResource FormLabel}"/>
+                <TextBox x:Name="loginTextBox" Style="{StaticResource WriteTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="LoginText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:LoginValidationRule />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
                 <ItemsControl ItemsSource="{Binding ElementName=loginTextBox, Path=(Validation.Errors)}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
@@ -37,28 +38,29 @@
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
 
-            <Label Content="Пароль:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="passwordTextBox">
-                <TextBox.Text>
-                    <Binding Path="PasswordText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:RequiredValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=passwordTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </StackPanel>
+                <Label Content="Пароль:" Style="{StaticResource FormLabel}" Margin="0,15,0,0"/>
+                <TextBox x:Name="passwordTextBox" Style="{StaticResource WriteTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="PasswordText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:PasswordValidationRule />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl ItemsSource="{Binding ElementName=passwordTextBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Border>
 
         <StackPanel Grid.Row="2" Style="{StaticResource HorizontalButtonPanel}">
-            <Button Content="Войти" Click="AuthButton_Click" Style="{StaticResource AddButtonStyle}"/>
-            <Button Content="Регистрация" Click="RegisterButton_Click"/>
+            <Button Content="Войти" Click="AuthButton_Click" Style="{StaticResource BaseButtonStyle}"/>
+            <Button Content="Регистрация" Click="RegisterButton_Click" Style="{StaticResource AddButtonStyle}"/>
         </StackPanel>
     </Grid>
 </Page>

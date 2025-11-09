@@ -56,7 +56,13 @@ namespace WPF8_PRACT.Pages
 
         private void EditPacient_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new EditPacientPage(Pacients, SelectedPacient));
+            if (SelectedPacient != null)
+            {
+                NavigationService.Navigate(new EditPacientPage(Pacients, SelectedPacient));
+            }
+            else MessageBox.Show("Выберите пациента для редактирования");
+
+            
         }
         private void DeletePacient_Click(object sender, RoutedEventArgs e)
         {

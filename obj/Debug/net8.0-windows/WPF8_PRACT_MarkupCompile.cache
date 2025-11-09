@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT10\obj\Debug\net8.0-windows\
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT10\obj\Debug\net8.0-windows\
 WPF8_PRACT
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\st310-08\Documents\zherebce_trpo\WPF8_PRACT10\App.xaml
+C:\Users\alek7\OneDrive\Рабочий стол\WPF8_PRACT10\App.xaml
 131625001109
-
+22-620812187
 24-1221815738
-198-192518753
+201-597772459
 MainWindow.xaml;Pages\AddPagePacient.xaml;Pages\Auth.xaml;Pages\EditPacientPage.xaml;Pages\MainPage.xaml;Pages\RegisterPage.xaml;Pages\StartPriem.xaml;Styles\Colors\DarkTheme.xaml;Styles\Colors\DefaultColors.xaml;Styles\UI\ButtonStyles.xaml;Styles\UI\CommonStyles.xaml;Styles\UI\FormStyles.xaml;Styles\UI\TextStyles.xaml;
 
 False

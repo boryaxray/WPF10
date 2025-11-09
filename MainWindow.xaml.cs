@@ -21,6 +21,7 @@ namespace WPF8_PRACT
         public MainWindow()
         {
             InitializeComponent();
+            ThemeHelper.ApplySavedTheme();
             MainFrame.Navigate(new Auth());
         }
 

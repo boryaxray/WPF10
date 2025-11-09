@@ -4,120 +4,101 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPF8_PRACT.Pages" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:validators="clr-namespace:WPF8_PRACT.ValidationRules"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke"
+      d:DesignHeight="450" d:DesignWidth="800"  Background="{DynamicResource WindowBackground}"
       Title="RegisterPage">
 
-    <Grid>
+    <Grid Margin="20">
         <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Row="0" Grid.Column="0">
-            <Label Content="Имя:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="nameTextBox">
-                <TextBox.Text>
-                    <Binding Path="NewDoctor.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:NameValidationRule/>    
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=nameTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+        <TextBlock Grid.Row="0" Text="Регистрация врача" Style="{StaticResource TitleText}"/>
 
-            <Label Content="Фамилия:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="lastNameTextBox">
-                <TextBox.Text>
-                    <Binding Path="NewDoctor.LastName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:NameValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=lastNameTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
 
-            <Label Content="Отчество:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="middleNameTextBox">
-                <TextBox.Text>
-                    <Binding Path="NewDoctor.MiddleName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:NameValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=middleNameTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </StackPanel>
+            <Border Grid.Column="0" Style="{StaticResource FormBorder}" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="Личные данные" Style="{StaticResource SectionTitle}"/>
 
-        <StackPanel Grid.Row="0" Grid.Column="1">
-            <Label Content="Пароль:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="passwordTextBox">
-                <TextBox.Text>
-                    <Binding Path="NewDoctor.Password" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:PasswordValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=passwordTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+                    <Label Content="Имя:" Style="{StaticResource FormLabel}"/>
+                    <TextBox x:Name="nameTextBox" Style="{StaticResource WriteTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="NewDoctor.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:NameValidationRule/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
 
-            <Label Content="Подтверждение пароля:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="confirmPasswordTextBox"/>
+                    <Label Content="Фамилия:" Style="{StaticResource FormLabel}"/>
+                    <TextBox x:Name="lastNameTextBox" Style="{StaticResource WriteTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="NewDoctor.LastName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:NameValidationRule/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
 
-            <Label Content="Специализация:" Style="{StaticResource FormLabel}"/>
-            <TextBox x:Name="specializationTextBox">
-                <TextBox.Text>
-                    <Binding Path="NewDoctor.Specialisation" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <validators:SpecializationValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <ItemsControl ItemsSource="{Binding ElementName=specializationTextBox, Path=(Validation.Errors)}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextStyle}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </StackPanel>
+                    <Label Content="Отчество:" Style="{StaticResource FormLabel}"/>
+                    <TextBox x:Name="middleNameTextBox" Style="{StaticResource WriteTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="NewDoctor.MiddleName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:NameValidationRule/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+            </Border>
 
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource CenterStackPanel}">
-            <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Style="{StaticResource AddButtonStyle}"/>
+            <Border Grid.Column="1" Style="{StaticResource FormBorder}" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="Профессиональные данные" Style="{StaticResource SectionTitle}"/>
+
+                    <Label Content="Пароль:" Style="{StaticResource FormLabel}"/>
+                    <TextBox x:Name="passwordTextBox" Style="{StaticResource WriteTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="NewDoctor.Password" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:PasswordValidationRule/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+
+                    <Label Content="Подтверждение пароля:" Style="{StaticResource FormLabel}"/>
+                    <TextBox x:Name="confirmPasswordTextBox" Style="{StaticResource WriteTextBox}"/>
+
+                    <Label Content="Специализация:" Style="{StaticResource FormLabel}"/>
+                    <TextBox x:Name="specializationTextBox" Style="{StaticResource WriteTextBox}">
+                        <TextBox.Text>
+                            <Binding Path="NewDoctor.Specialisation" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <validators:SpecializationValidationRule/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Style="{StaticResource HorizontalButtonPanel}">
+            <Button Content="Зарегистрироваться" Click="SaveButton_Click" Style="{StaticResource AddButtonStyle}"/>
+            <Button Content="Назад" Click="BackButton_Click" Style="{StaticResource BaseButtonStyle}"/>
         </StackPanel>
     </Grid>
 </Page>

@@ -3,12 +3,13 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:WPF8_PRACT.Pages" xmlns:local1="clr-namespace:WPF8_PRACT"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="1000" Background="WhiteSmoke"
+      d:DesignHeight="450" d:DesignWidth="1000" Background="{DynamicResource WindowBackground}"
       Title="Главная страница">
 
-    <Grid>
+    <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
@@ -18,42 +19,53 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!-- Панель кнопок -->
         <StackPanel Grid.Row="0" Grid.Column="1" Style="{StaticResource HorizontalButtonPanel}">
             <Button Content="Создать пациента" Click="AddPacient_Click" Style="{StaticResource AddButtonStyle}"/>
-            <Button Content="Начать прием" Click="StartPriem_Click"/>
-            <Button Content="Изменить информацию" Click="EditPacient_Click"/>
+            <Button Content="Начать прием" Click="StartPriem_Click" Style="{StaticResource BaseButtonStyle}"/>
+            <Button Content="Изменить информацию" Click="EditPacient_Click" Style="{StaticResource BaseButtonStyle}"/>
             <Button Content="Удалить пациента" Click="DeletePacient_Click" Style="{StaticResource DeleteButtonStyle}"/>
         </StackPanel>
 
-        <ListView Grid.Row="1" Grid.Column="1" 
-                  ItemsSource="{Binding Pacients}" 
-                  SelectedItem="{Binding SelectedPacient, Mode=TwoWay}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Border Style="{StaticResource FormBorder}">
-                        <StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Фамилия: " Style="{StaticResource BoldText}"/>
-                                <TextBlock Text="{Binding LastName}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Имя: " Style="{StaticResource BoldText}"/>
-                                <TextBlock Text="{Binding Name}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Телефон: " Style="{StaticResource BoldText}"/>
-                                <TextBlock Text="{Binding PhoneNumber, StringFormat='{}{0:#(###) ### ## ##}'}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Дата рождения: " Style="{StaticResource BoldText}"/>
-                                <TextBlock Text="{Binding Birthday, StringFormat={}{0:dd.MM.yyyy}}"/>
-                            </StackPanel>
-                        </StackPanel>
-                    </Border>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <!-- Список пациентов -->
+        <Border Grid.Row="1" Grid.Column="1" Style="{StaticResource FormBorder}">
+            <StackPanel>
+                <TextBlock Text="Список пациентов" Style="{StaticResource SectionTitle}"/>
+                <ListView ItemsSource="{Binding Pacients}" SelectedItem="{Binding SelectedPacient, Mode=TwoWay}"
+                          Height="300">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Padding="10" Margin="0,2" BorderBrush="{DynamicResource BorderColor}" BorderThickness="0,0,0,1">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Фамилия: " Style="{StaticResource BoldText}"/>
+                                        <TextBlock Text="{Binding LastName}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Имя: " Style="{StaticResource BoldText}"/>
+                                        <TextBlock Text="{Binding Name}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Отчество: " Style="{StaticResource BoldText}"/>
+                                        <TextBlock Text="{Binding MiddleName}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Телефон: " Style="{StaticResource BoldText}"/>
+                                        <TextBlock Text="{Binding PhoneNumber, StringFormat='{}{0:#(###) ### ## ##}'}"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Дата рождения: " Style="{StaticResource BoldText}"/>
+                                        <TextBlock Text="{Binding Birthday, StringFormat={}{0:dd.MM.yyyy}}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </Border>
 
+        <!-- Информация о враче -->
         <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource FormBorder}">
             <StackPanel>
                 <TextBlock Text="Информация о враче" Style="{StaticResource SectionTitle}"/>

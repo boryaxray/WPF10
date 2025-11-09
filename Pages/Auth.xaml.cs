@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+#nullable disable
 namespace WPF8_PRACT.Pages
 {
     /// <summary>
@@ -20,8 +20,8 @@ namespace WPF8_PRACT.Pages
     /// </summary>
     public partial class Auth : Page
     {
-        public string LoginText { get; set; }
-        public string PasswordText { get; set; }
+        public string? LoginText { get; set; }
+        public string? PasswordText { get; set; } 
         public Auth()
         {
             InitializeComponent();
@@ -48,10 +48,12 @@ namespace WPF8_PRACT.Pages
             var doctor = Doctor.LoadFromFile(doctorId);
             if (doctor == null || doctor.Password != PasswordText)
             {
+                MessageBox.Show("Неверный логин или пароль");
                 return;
             }
 
             NavigationService.Navigate(new MainPage(doctor));
         }
+
     }
 }
